@@ -1,5 +1,5 @@
 export const state = () => ({
-  sideCart: true
+  sideCart: false
 });
 
 export const mutations = {
