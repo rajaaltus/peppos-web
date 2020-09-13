@@ -2,7 +2,7 @@
   <section class="mt-10 px-4 sm:px-32 mx-auto">
     <div class="flex px-4 pb-4 sm:justify-evenly overflow-x-scroll">
       <div v-for="(category, index) in categories" :key="index">
-        <nuxt-link :to="category.path" class="category font-bold px-3 sm:px-0 md:px-3 text-2xl text-gray-600 hover:text-peppos-800 hover:underline">
+        <nuxt-link :to="category.path" class="category font-bold px-3 sm:px-0 md:px-3 text-2xl text-gray-600 hover:text-peppos-800 hover:underline transition ease-out-in duration-500">
           {{ category.name }}
         </nuxt-link>
       </div>

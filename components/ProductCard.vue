@@ -1,5 +1,5 @@
 <template>
-  <div class="relative mt-10 w-2/5 mx-auto md:mx-6 lg:w-1/6 bg-white rounded-lg px-4 mb-4 py-4">
+  <div class="relative mt-10 w-2/5 mx-auto md:mx-6 lg:w-1/6 bg-white rounded-lg px-4 mb-4 py-4 hover:shadow-lg border border-solid border-gray-300 transition ease-out-in duration-500">
     <div class="">
       <img class="mx-auto py-4 px-6 pb-1/6" :src="product.image" alt="tomato" />
     </div>

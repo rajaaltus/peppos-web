@@ -1,9 +1,11 @@
 <template>
   <section>
+    <main-search />
     <category-bar />
     <div class="mx-4 sm:mx-32 px-2 flex flex-wrap items-center">
       <product-card v-for="(product, index) in products" :key="index" :product="product" />
     </div>
+    <side-checkout />
   </section>
 </template>
 
@@ -11,6 +13,7 @@
 export default {
   data() {
     return {
+      cartState: false,
       products: [
         {
           id: 1,
@@ -98,6 +101,12 @@ export default {
         },
       ],
     };
+  },
+  computed: {
+  
+  },
+  methods: {
+   
   },
 };
 </script>
